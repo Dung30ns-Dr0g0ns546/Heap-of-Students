@@ -23,3 +23,5 @@ class Student{
 					std::string creditHoursCompleted;)
 		void printStudent();
 		};
+
+#endif
