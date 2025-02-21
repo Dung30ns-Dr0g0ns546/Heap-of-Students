@@ -2,26 +2,27 @@
 #define STUDENT_H_EXISTS
 
 #include <string>
+#include "heapOfDates.h"
+#include "heapOfAddresses.h"
+
 
 class Student{
 	protected:
+		std::string studentString;
 		std::string firstName;
 		std::string lastName;
-		std::string street;
-		std::string city;
-		std::string state;
-		std::string zip;
-		std::string birthDate;
-		std::string expectedGradDate;
+		Address* address;
+		Date* dob;
+		Date* expectedGrad;
 		std::string creditHoursCompleted;
 	public:
 		Student()
-		void init (std::string firstName, std::string lastName,
-					std::string street, std::string city,
-					std::string state, std::string zip,
-					std::string birthDate, std::string expectedGradDate,
-					std::string creditHoursCompleted;)
+		Student(std::string studentString);
+		~Student();
+		void init(std::string studentString);
 		void printStudent();
+		std::string getLastFirst();
+		std::string getLastName();
 		};
 
 #endif
