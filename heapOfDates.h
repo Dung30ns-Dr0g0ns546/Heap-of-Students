@@ -11,8 +11,8 @@ class Date{
 		int year;
 	public:
 		Date();
-		void init(std::string dateString)l
-			void printDate();
+		void init(std::string dateString);
+		void printDate();
 };
 
 #endif

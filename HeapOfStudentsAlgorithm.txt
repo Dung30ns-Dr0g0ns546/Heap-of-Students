@@ -1,3 +1,7 @@
 # Heap of Students Algorithm
 
+#heapOfAddresses
 
+#heapOfDates
+
+#heapOfStudents
