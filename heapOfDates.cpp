@@ -19,9 +19,9 @@ Date::init(std::string dateString){
     std::string tDay;
     std::string tYear;
     
-    getLine(tempDateString, tMonth, '/');
-    getLine(tempDateString, tDay, '/');
-    getLine(tempDateString, tYear);
+    getLine(dateString, tMonth, '/');
+    getLine(dateString, tDay, '/');
+    getLine(dateString, tYear);
 
     dateString.clear();
     dateString.str("");
