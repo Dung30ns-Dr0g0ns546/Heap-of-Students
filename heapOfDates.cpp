@@ -2,9 +2,7 @@
 #include <string>
 
 Date::Date(){
-    std::string sYear;
-    std::string sMonth;
-    std::string sDay;
+    
     std::stringstream dateString;
 
     int year = 0;
@@ -14,9 +12,15 @@ Date::Date(){
 }
 
 Date::init(std::string dateString){
-    getLine(dateString, month, '/');
-    getLine(dateString, day, '/');
-    getLine(dateString, year);
+    std::stringstream tempDateString
+    
+    std::string tMonth;
+    std::string tDay;
+    std::string tYear;
+    
+    getLine(tempDateString, tMonth, '/');
+    getLine(tempDateString, tDay, '/');
+    getLine(tempDateString, tYear);
 
     dateString.clear();
     dateString.str("");
