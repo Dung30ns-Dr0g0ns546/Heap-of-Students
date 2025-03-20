@@ -16,13 +16,13 @@ int main(){
 } // end main
 
 void testAddress(){
-  address a;
+  Address a;
   a.init("123 W Main St", "Muncie", "IN", "47303");
   a.printAddress();
 } // end testAddress
 
 void testDate(){
- date d;
+ Date d;
  d.init("01/27/1997");
  d.printDate();
 } // end testDate

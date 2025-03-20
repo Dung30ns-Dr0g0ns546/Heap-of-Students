@@ -12,7 +12,8 @@ Date::Date(){
 }
 
 Date::init(std::string dateString){
-    std::stringstream tempDateString
+    std::stringstream tempDateString(dateString);
+
     
     std::string tMonth;
     std::string tDay;
@@ -24,7 +25,7 @@ Date::init(std::string dateString){
 
     dateString.clear();
     dateString.str("");
-    dateString << sMonth << " " << sDay << " " << sYear;
+    dateString << tMonth << " " << tDay << " " << tYear;
     dateString >> month >> day >> year;
 }
 

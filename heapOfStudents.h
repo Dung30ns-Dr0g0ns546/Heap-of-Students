@@ -16,7 +16,7 @@ class Student{
 		Date* expectedGrad;
 		std::string creditHoursCompleted;
 	public:
-		Student()
+		Student();
 		Student(std::string studentString);
 		~Student();
 		void init(std::string studentString);
