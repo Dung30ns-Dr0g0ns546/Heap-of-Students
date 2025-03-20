@@ -25,6 +25,6 @@ Date::init(std::string dateString){
 }
 
 Date::printDate(){
-    ;
+    std::cout << dateString << std::endl;
 }
 
