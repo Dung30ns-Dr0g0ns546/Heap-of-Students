@@ -15,6 +15,7 @@ class Address{
 		void init (std::string street, std::string city,
 				std::string state, std::string zip);
 		void printAddress();
-		};
+		
+};		
 #endif
 
