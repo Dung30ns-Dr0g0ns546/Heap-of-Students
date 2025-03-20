@@ -20,11 +20,11 @@ Date::init(std::string dateString){
 
     dateString.clear();
     dateString.str("");
-    dateString << sMonth << " " << sDay << "" << sYear;
+    dateString << sMonth << " " << sDay << " " << sYear;
     dateString >> month >> day >> year;
 }
 
 Date::printDate(){
-    System.out.println();
+    ;
 }
 
