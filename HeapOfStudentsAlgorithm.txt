@@ -3,5 +3,20 @@
 #heapOfAddresses
 
 #heapOfDates
+Create a class called "Date"
+Have it contain stringstream "datestring"
+Have it contain int "year" and set it to 0
+Have it contain int "month" and set it to 0
+Have it contain int "day" and set it to 0
+
+Create an initializer object, which is an instance of class "Date"
+Create a stringstream "tempDateString" and contain it in object
+Create string "tMonth" and contain it in object
+Create string "tDay" and contain it in object
+Create string "tYear" and contain it in object
+
+Create getLines
+
+Create a 
 
 #heapOfStudents

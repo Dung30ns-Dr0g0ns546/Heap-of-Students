@@ -2,18 +2,22 @@
 #include <string>
 
 Address::Address(){
-	std::string street;
-	std::string city;
-	std::string state;
-	std::string zip;
+
+	street = "";
+	city "";
+	state "";
+	zip "";
 }
 
 Address::init(std::string street, std::string city, std::string state, std::string zip){
 
-	getLine(street, city, state, zip);
+	Address::street = street;
+	Address::city = city;
+	Address::state = state;
+	Address::zip = zip;
 	
 }
 
 Address::printAddress(){
-
+	std:cout << street << " " << city << ", " << state << zip
 }
