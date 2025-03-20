@@ -1,5 +1,5 @@
-#ifndef ADDRESS_S_EXITS
-#define ADDRESS_S_
+#ifndef ADDRESS_H_EXISTS
+#define ADDRESS_H_EXISTS
 
 #include <string>
 
