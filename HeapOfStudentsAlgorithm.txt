@@ -8,22 +8,46 @@ Have it contain string "state"
 Have it contain string "zip"
 
 Create an initializer object, which is an instance of class "Address"
+Create a Address::string called "street" and have it be contained in object
+Create a Address::string called "city" and have it be contained in object
+Create a Address::string called "state" and have it be contained in object
+Create a Address::string called "zip" and have it be contained in object
+
+Create a class called "printAddress" and have it print all of the previously mentioned objects
 
 #heapOfDates
 Create a class called "Date"
-Have it contain stringstream "datestring"
+Have it contain a stringstream called "datestring"
 Have it contain int "year" and set it to 0
 Have it contain int "month" and set it to 0
 Have it contain int "day" and set it to 0
 
 Create an initializer object, which is an instance of class "Date"
 Create a stringstream "tempDateString" and contain it in object
-Create string "tMonth" and contain it in object
-Create string "tDay" and contain it in object
-Create string "tYear" and contain it in object
+Create Date::string "tMonth" and contain it in object
+Create Date::string "tDay" and contain it in object
+Create Date::string "tYear" and contain it in object
 
 Create getLines
 
-Create a object named "printDate," which is an instance of class "Date"
+Create a object named "printDate," and have it print all of the previously mentioned objects
 
 #heapOfStudents
+Create a class called "Student"
+Have it contain a string called "studentstring"
+Have it contain string "firstName"
+Have it contain string "lastName"
+Have it contain string "address"
+Have it contain string "dob"
+Have it contain string "expectedGrad"
+Have it contain string "creditHoursCompleted"
+
+Create a initializer object, which is an instance of class "Student"
+Create a Student::string called "firstName" and contain it in object
+Create a Student::string called "lastName" and contain it in object
+Create a Student::string called "address" and contain it in object
+Create a Student::string called "dob" and contain it in object
+Create a Student::string called "expectedGrad" and contain it in object
+Create a Student::string called "creditHoursCompleted" and contain it in object
+
+Create a object named "printStudent," and have it print all of the previously mentioned objects
