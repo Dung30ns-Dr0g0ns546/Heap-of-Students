@@ -1,6 +1,13 @@
 # Heap of Students Algorithm
 
 #heapOfAddresses
+Create a class called "Address"
+Have it contain string "street"
+Have it contain string "city"
+Have it contain string "state"
+Have it contain string "zip"
+
+Create an initializer object, which is an instance of class "Address"
 
 #heapOfDates
 Create a class called "Date"
@@ -17,6 +24,6 @@ Create string "tYear" and contain it in object
 
 Create getLines
 
-Create a 
+Create a object named "printDate," which is an instance of class "Date"
 
 #heapOfStudents
