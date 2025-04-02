@@ -1,0 +1,11 @@
+heapOfAddresses.o: heapOfAddresses.cpp heapOfAddresses.h
+ g++ -g -c heapOfAddresses.cpp
+
+heapOfDates.o: heapOfDates.cpp heapOfDates.h
+ g++ -g -c heapOfDates.cpp
+
+heapOfStudents.o: heapOfStudents.cpp heapOfStudents.h
+ g++ -g -c heapOfStudents.cpp
+
+clean:
+ rm *.class
